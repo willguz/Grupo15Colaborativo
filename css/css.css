@@ -49,6 +49,27 @@ div{
 table.table{
 	box-shadow: 0px 5px 15px;
 }
+.img-thumbnail{
+	width: 195px;
+	height: 200px;
+	box-shadow: 0px 5px 15px;
+	transition: 0.3s;
+}
+.img-thumbnail:hover{
+	width: 235px;
+	height: 240px;
+	box-shadow: 0px 5px 15px;	
+}
+img.iman{
+	margin: 5px;
+	width: 175px;
+	height: 180px;
+	box-shadow: 0px 5px 15px;
+	transition: 0.3s;
+}
+img.iman:hover {
+	box-shadow: 0px 5px 15px inset;
+}
 img#acti{
 	width: 400px;
 	height: 200px;
