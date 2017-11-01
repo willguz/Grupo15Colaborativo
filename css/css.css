@@ -1,36 +1,23 @@
 *{
 	margin: 0;
 }
-header{
-	top:0;
-	height: 8%;
+.img-responsive{
 	width: 100%;
-	padding-top: 1%;
-	background-color: rgba(36, 36, 36, 0.9);
-	box-shadow: 0px 0px 70px;
-	position: fixed;
-	text-align: center;
 }
-.container1 {
-	background: rgba(36, 36, 36, 0.999);
-	border-radius: 10px 10px 10px 10px;
-	box-shadow: 0px 0px 70px;
-    margin-top: 15px;
-    text-align: center;
-    width: 100%;
+.container{
+	box-shadow: 0px 5px 70px;
 }
-
-div.est{
-	border-radius: 10px 10px 10px 10px;
-	box-shadow: 0px 0px 70px;
-	padding: 3%;
+.col{
+	padding-left: 15px;
+	color: #3498DB;
+	box-shadow: 15px 0px 5px;
+	box-shadow: 25px 0px 55px inset;
+	cursor: pointer;
 }
-
-img.unad{
-	padding: 1%;
-	height: 70px;
-	width: 100px;
-	float: left;
+.active{
+	background-color: #000;
+	box-shadow: 0px 0px 5px inset;
+	cursor: pointer;
 }
 h1{
 	text-align: center;
@@ -44,7 +31,8 @@ div{
 	text-align: justify;
 }
 .footer{
-	box-shadow: 0px 0px 70px;
+	color: white;
+	box-shadow: 0px 0px 40px inset;
 	background: rgba(36, 36, 36, 0.9);
 }
 .article{
@@ -54,4 +42,22 @@ div{
 .images{
     width: 250px;
     height: 250px;  
+}
+.container1 {
+	margin-top: 15px;
+}
+table.table{
+	box-shadow: 0px 5px 15px;
+}
+img#acti{
+	width: 400px;
+	height: 200px;
+	transition: 1s;
+	box-shadow: 0px 0px 20px;
+
+}
+img#acti:hover {
+	width: 600px;
+	height: 300px;
+	box-shadow: 0px 0px 70px;
 }
