@@ -7,6 +7,18 @@
 .container{
 	box-shadow: 0px 5px 70px;
 }
+.col{
+	padding-left: 15px;
+	color: #3498DB;
+	box-shadow: 15px 0px 5px;
+	box-shadow: 25px 0px 55px inset;
+	cursor: pointer;
+}
+.active{
+	background-color: #000;
+	box-shadow: 0px 0px 5px inset;
+	cursor: pointer;
+}
 h1{
 	text-align: center;
 }
