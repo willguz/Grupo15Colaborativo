@@ -43,8 +43,15 @@ div{
 .container1 {
 	margin-top: 2px;
 }
-table.table{
+.table{
 	box-shadow: 0px 5px 15px;
+}
+.tatr:hover{
+background-color: #FFFFFF;
+box-shadow: -20px 5px 55px;
+border-radius: 5px;
+transition: 0.3s;
+transform:scale(1.1);
 }
 .img-thumbnail{
 	width: 195px;
