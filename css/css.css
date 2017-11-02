@@ -46,11 +46,14 @@ div{
 .table{
 	box-shadow: 0px 5px 15px;
 }
+.tatr{
+	transition: 0.7s;
+}
 .tatr:hover{
 background-color: #FFFFFF;
 box-shadow: -20px 5px 55px;
 border-radius: 5px;
-transition: 0.3s;
+transition: 0.4s;
 transform:scale(1.1);
 font-weight: bold;
 }
@@ -58,11 +61,12 @@ font-weight: bold;
 	width: 195px;
 	height: 200px;
 	box-shadow: 0px 5px 15px;
-	transition: 0.3s;
+	transition: 0.7s;
 }
 .img-thumbnail:hover{
 	transform: scale(1.2);
-	box-shadow: 0px 5px 15px;	
+	box-shadow: 0px 5px 15px;
+	transition: 0.4s;
 }
 img.iman{
 	margin: 5px;
