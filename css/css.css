@@ -9,12 +9,13 @@
 }
 .col{
 	padding-left: 15px;
-	color: #3498DB;
-	box-shadow: 15px 0px 5px;
-	box-shadow: 25px 0px 55px inset;
+	color: #19738a;
+	box-shadow: 0px 0px 65px inset;
 	cursor: pointer;
 }
-
+.active{
+	background-color: #1b7f99;
+}
 h1{
 	text-align: center;
 }
